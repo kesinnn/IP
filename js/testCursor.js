@@ -35,7 +35,7 @@ $(document).ready(function() {
 
     $('#paint').on('mouseleave', function() {
         $('#custom-cursor').css({
-            'background-image': 'url("../resources/assets/normal.png")',
+            'background-image': 'url("resources/assets/normal.png")',
             'width': '82px', 
             'height': '151px' 
         });
@@ -44,7 +44,7 @@ $(document).ready(function() {
     // hover
     $('#spiritual').on('mouseenter', function() {
         $('#custom-cursor').css({
-            'background-image': 'url("../resources/assets/hover.png")',
+            'background-image': 'url("resources/assets/hover.png")',
             'width': '80px', 
             'height': '80px' 
         });
@@ -52,7 +52,7 @@ $(document).ready(function() {
 
     $('#spiritual').on('mouseleave', function() {
         $('#custom-cursor').css({
-            'background-image': 'url("../resources/assets/normal.png")',
+            'background-image': 'url("resources/assets/normal.png")',
             'width': '82px', 
             'height': '151px' 
         });
@@ -61,7 +61,7 @@ $(document).ready(function() {
     // besisi
     $('#besisi').on('mouseenter', function() {
         $('#custom-cursor').css({
-            'background-image': 'url("../resources/assets/clickAnywhere.svg")',
+            'background-image': 'url("resources/assets/clickAnywhere.svg")',
             'width': '200px', 
             'height': '200px' 
         });
@@ -69,7 +69,7 @@ $(document).ready(function() {
 
     $('#besisi').on('mouseleave', function() {
         $('#custom-cursor').css({
-            'background-image': 'url("../resources/assets/normal.png")',
+            'background-image': 'url("resources/assets/normal.png")',
             'width': '82px', 
             'height': '151px' 
         });
@@ -78,7 +78,7 @@ $(document).ready(function() {
     // village
     $('#visitVillage').on('mouseenter', function() {
         $('#custom-cursor').css({
-            'background-image': 'url("../resources/assets/clickAnywhere.svg")',
+            'background-image': 'url("resources/assets/clickAnywhere.svg")',
             'width': '200px', 
             'height': '200px' 
         });
@@ -86,7 +86,7 @@ $(document).ready(function() {
 
     $('#visitVillage').on('mouseleave', function() {
         $('#custom-cursor').css({
-            'background-image': 'url("../resources/assets/normal.png")',
+            'background-image': 'url("resources/assets/normal.png")',
             'width': '82px', 
             'height': '151px' 
         });
