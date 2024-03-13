@@ -3,8 +3,8 @@
 @import url("https://use.typekit.net/yqr3ohp.css");
 
 @font-face {
-    font-family: TeaLeafCaps;
-    src: url("https://github.com/kesinnn/IP/blob/main/resources/font/Tea_Leaf_Caps.otf");
+    font-family: "TeaLeafCaps";
+    src: url("resources/font/Tea_Leaf_Caps.otf") format("opentype");
 }
 
 body {
