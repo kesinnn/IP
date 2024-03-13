@@ -3,9 +3,9 @@ var ctx = canvas.getContext('2d');
 
 // Load images
 var imgGray = new Image();
-imgGray.src = '../resources/assets/characterBlank.png';
+imgGray.src = 'resources/assets/characterBlank.png';
 var imgColor = new Image();
-imgColor.src = '../resources/assets/characterBlank.png';
+imgColor.src = 'resources/assets/characterBlank.png';
 
 imgGray.onload = function() {
     ctx.drawImage(imgGray, 0, 0, canvas.width, canvas.height);
