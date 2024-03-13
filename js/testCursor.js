@@ -27,7 +27,7 @@ $(window).scroll(function(event) {
 $(document).ready(function() {
     $('#paint').on('mouseenter', function() {
         $('#custom-cursor').css({
-            'background-image': 'url("../resources/assets/paint.png")',
+            'background-image': 'url("resources/assets/paint.png")',
             'width': '42px', 
             'height': '179px' 
         });
