@@ -1,16 +1,16 @@
 var images = [
-    '../resources/assets/besisi/1.png',
-    '../resources/assets/besisi/2.png',
-    '../resources/assets/besisi/3.png',
-    '../resources/assets/besisi/4.png',
-    '../resources/assets/besisi/5.png',
-    '../resources/assets/besisi/6.png',
-    '../resources/assets/besisi/7.png',
-    '../resources/assets/besisi/8.png',
-    '../resources/assets/besisi/9.png',
-    '../resources/assets/besisi/10.png',
-    '../resources/assets/besisi/11.png',
-    '../resources/assets/besisi/12.png',
+    'resources/assets/besisi/1.png',
+    'resources/assets/besisi/2.png',
+    'resources/assets/besisi/3.png',
+    'resources/assets/besisi/4.png',
+    'resources/assets/besisi/5.png',
+    'resources/assets/besisi/6.png',
+    'resources/assets/besisi/7.png',
+    'resources/assets/besisi/8.png',
+    'resources/assets/besisi/9.png',
+    'resources/assets/besisi/10.png',
+    'resources/assets/besisi/11.png',
+    'resources/assets/besisi/12.png',
 ];
 
 var index = 0;
