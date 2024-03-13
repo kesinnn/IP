@@ -32,7 +32,7 @@ a:hover {
 
 .header {
     width: 400px;
-    font-family: "Tea Leaf Caps", "poppins", sans-serif;
+    font-family: "Tea Leaf Caps", sans-serif;
     font-size: 360px;
     margin: 50px 15px 50px 50px;
     padding-top: 30px;
@@ -161,7 +161,7 @@ a:hover {
 }
 
 .teaLeafText {
-    font-family: "Tea Leaf Caps", "poppins", sans-serif;
+    font-family: "Tea Leaf Caps", sans-serif;
     font-size: 260px;
     line-height: 312px;
     text-align: center;
