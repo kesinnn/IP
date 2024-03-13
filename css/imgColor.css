@@ -7,7 +7,7 @@
   #canvas {
     position: relative;
     margin: 0 auto;
-    background: url('/resources/assets/characterColor.png');
+    background: url('https://github.com/kesinnn/IP/blob/main/resources/assets/characterColor.png');
     background-repeat: no-repeat;
     background-size: 1920px 1322px;
 }
