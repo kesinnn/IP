@@ -1,0 +1,76 @@
+.wrapper {
+    width: 40%;
+    margin: 2rem auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    padding-top: 75px;
+}
+
+/* This container is needed to position the front and back side */
+.container {
+    position: absolute;
+    text-align: center;
+    /* height: 60%;
+    width: 20%; */
+    color: #fff;
+    font-size: 24px;
+}
+
+.front,
+.back, .front1, .back1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 100%; */
+    height: 60%;
+    transition: transform .7s;
+    backface-visibility: hidden;
+}
+
+/* style the backface*/
+.back, .back1 {
+    /* background-color: #617142; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    transform: rotateY(180deg);
+}
+
+.back1 {
+    transform: rotateX(180deg);
+}
+
+.back p, .back1 p {
+    font-size: small;
+    color: transparent;
+}
+
+/* text */
+.inner {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+/* to make the frontface n backface rotate when HOVER */
+.container:hover .front {
+    transform: rotateY(-180deg);
+}
+.container:hover .back {
+    transform: rotateY(0deg);
+}
+
+.container:hover .front1 {
+    transform: rotateX(-180deg);
+}
+.container:hover .back1 {
+    transform: rotateX(0deg);
+}

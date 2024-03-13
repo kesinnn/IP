@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+@import url("https://use.typekit.net/yqr3ohp.css");
+
+@font-face {
+    font-family: TeaLeafCaps;
+    src: url("/resources/font/Tea_Leaf_Caps.otf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #97A546;
+    font-family: "poppins", sans-serif;
+    max-width: 100%;
+    cursor: none;
+}
+
+#custom-cursor {
+    width: 82px;
+    height: 151px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(../resources/assets/normal.png);
+    background-position: center;
+  }
+
+a {
+    text-decoration: none;
+    color: #97A546;
+}
+
+a:hover {
+    color: #97A546;
+}
+
+.header {
+    width: 400px;
+    font-family: TeaLeafCaps;
+    font-size: 360px;
+    margin: 50px 15px 50px 50px;
+    padding-top: 30px;
+    line-height: 260px;
+}
+
+.header2 {
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 100px;
+    margin-top: 200px;
+    line-height: 120px;
+}
+
+/* -----------------------------------homepage-------------------------------------- */
+
+.homeSec {
+    height: 100vh;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.homeSec:nth-child(1) {
+    height: 220vh;
+    background-color: #FFFBF6;
+    color: #97A546;
+    position: relative;
+}
+
+.homeSec:nth-child(2) {
+    background-image: url(../resources/assets/bg1.png);
+    background-size: contain;
+    color: #FFFBF6;
+    position: relative;
+}
+
+.homeSec:nth-child(3) {
+    height: 7088px;
+    width: 1947px;
+    background-image: url(../resources/assets/bg4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFBF6;
+    position: relative; 
+}
+
+.homeSec:nth-child(4),
+.homeSec:nth-child(8) {
+    height: 100vh;
+    background-image: url(../resources/assets/pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #617142;
+    position: relative;
+}
+
+.homeSec:nth-child(5) {
+    height: 125vh;
+    background-color: #FFFBF6;
+    color: #617142;
+    position: relative;
+}
+
+.homeSec:nth-child(6) {
+    height: 115vh;
+    background-image: url(../resources/assets/bg5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFBF6;
+    position: relative;
+}
+
+.homeSec:nth-child(7) {
+    background-color: #FFFBF6;
+    color: #617142;
+    position: relative;
+}
+
+.homeSec:nth-child(9) {
+    background-color: #FFFBF6;
+    color: #617142;
+    position: relative;
+}
+
+.homeSec:nth-child(10) {
+    background-image: url(../resources/assets/bg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #97A546;
+    position: relative;
+}
+
+#besisi,
+#visitVillage,
+#spiritual,
+#paint {
+    cursor: none;
+}
+  
+.boldQues {
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 340px;
+    margin: 200px 15px 50px 50px;
+    padding-top: 25px;
+    line-height: 340px;
+    text-align: center;
+}
+
+.leftText {
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 100px;
+    margin-left: 68px;
+    line-height: 120px;
+}
+
+.middleText {
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+}
+
+.teaLeafText {
+    font-family: TeaLeafCaps;
+    font-size: 260px;
+    line-height: 312px;
+    text-align: center;
+    /* color: #FFDB6C; */
+}
+
+.intro {
+    color: #617142;
+    margin-top: 230px;
+}
+
+.actually {
+    color: #97A546;
+    font-size: 260px;
+    line-height: 300px;
+    text-align: center;
+}
+
+.gallery {
+    margin: -200px 0;
+}
+
+.laut {
+    width: 100%;
+    position: absolute;
+    bottom: 1400px;
+}
+
+.lautContent {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex: 1;
+    z-index: 1;
+}
+
+.jungle {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.jungleContent {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex: 1;
+    z-index: 1;
+    justify-content: center;
+}
