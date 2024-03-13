@@ -13,12 +13,9 @@ var images = [
     '../resources/assets/besisi/12.png',
 ];
 
-var cursor1Image = '../resources/assets/clickAnywhere.svg';
-
 var index = 0;
 
 var div = document.getElementById('besisi');
-var cursor1Tag = null;
 
 div.addEventListener('click', function (e) {
     e = e || window.event;
