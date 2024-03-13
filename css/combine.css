@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+@import url('https://fonts.cdnfonts.com/css/tea-leaf-caps');
 @import url("https://use.typekit.net/yqr3ohp.css");
 
-@font-face {
+/* @font-face {
     font-family: "TeaLeafCaps";
     src: url("https://github.com/kesinnn/IP/blob/main/resources/font/Tea_Leaf_Caps.otf");
-}
+} */
 
 body {
     margin: 0;
@@ -36,7 +37,7 @@ a:hover {
 
 .header {
     width: 400px;
-    font-family: "TeaLeafCaps", "poppins", sans-serif;
+    font-family: "Tea Leaf Caps", "poppins", sans-serif;
     font-size: 360px;
     margin: 50px 15px 50px 50px;
     padding-top: 30px;
@@ -165,7 +166,7 @@ a:hover {
 }
 
 .teaLeafText {
-    font-family: "TeaLeafCaps", "poppins", sans-serif;
+    font-family: "Tea Leaf Caps", "poppins", sans-serif;
     font-size: 260px;
     line-height: 312px;
     text-align: center;
